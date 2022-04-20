@@ -1,7 +1,6 @@
 <template>
-  <div class="w-96 rounded-md bg-white">
-    <div>
-      <img src="img/loginImg.png" class="rounded-t-lg" />
+  <div class="w-xl rounded-md bg-white">
+    <div class="w-full h-72 rounded-t-lg bg-no-repeat bg-cover bg-center bg-loginImg">
     </div>
 
     <div class="p-8">
@@ -23,14 +22,14 @@
           placeholder="Your password"
           class="rounded-md border-2 border-gray-300 p-3"
         />
-        <p class="text-purple-700 font-bold">Forgot password?</p>
+        <a class="text-purple-700 font-bold cursor-pointer">Forgot password?</a>
       </div>
     </div>
 
     <hr />
 
-    <div class="flex flex-row justify-between items-center px-7 py-4">
-      <p>Don't have an account? <a class="text-purple-700">Sign up</a></p>
+    <div class="flex flex-row justify-between items-center px-8 py-4">
+      <p>Don't have an account? <a class="text-purple-700 cursor-pointer">Sign up</a></p>
       <button class="bg-purple-700 text-white w-24 rounded-md p-2">Sign In</button>
     </div>
   </div>
