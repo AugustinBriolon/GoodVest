@@ -1,6 +1,6 @@
 <template>
-  <div class="w-xl rounded-md bg-white">
-    <div class="w-full h-72 rounded-t-lg bg-no-repeat bg-cover bg-center bg-loginImg">
+  <div class="w-80 sm:w-xl rounded-md bg-white">
+    <div class="w-full h-52 sm:h-72 rounded-t-lg bg-no-repeat bg-cover bg-center bg-loginImg">
     </div>
 
     <div class="p-8">
@@ -11,7 +11,7 @@
         <input
           type="text"
           placeholder="Your username or email"
-          class="rounded-md border-2 border-gray-300 p-3"
+          class="rounded-md border-2 border-gray-300 p-3 hover:border-purple-700 focus:outline-purple-700"
         />
       </div>
 
@@ -20,17 +20,17 @@
         <input
           type="password"
           placeholder="Your password"
-          class="rounded-md border-2 border-gray-300 p-3"
+          class="rounded-md border-2 border-gray-300 p-3 hover:border-purple-700 focus:outline-purple-700"
         />
-        <a class="text-purple-700 font-bold cursor-pointer">Forgot password?</a>
+        <a class="text-purple-700 hover:text-purple-900 font-bold cursor-pointer">Forgot password?</a>
       </div>
     </div>
 
     <hr />
 
     <div class="flex flex-row justify-between items-center px-8 py-4">
-      <p>Don't have an account? <a class="text-purple-700 cursor-pointer">Sign up</a></p>
-      <button class="bg-purple-700 text-white w-24 rounded-md p-2">Sign In</button>
+      <p>Don't have an account? <a class="text-purple-700 cursor-pointer hover:text-purple-900">Sign up</a></p>
+      <button class="bg-purple-700 hover:bg-purple-900 text-white w-24 rounded-md p-2">Sign In</button>
     </div>
   </div>
 </template>
